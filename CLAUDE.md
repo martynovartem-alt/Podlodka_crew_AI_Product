@@ -9,7 +9,7 @@ This file provides product and team context for AI-assisted hypothesis discovery
 **Product:** AI Augmentation Platform for bank IT teams
 **What it does:** Identifies high-friction roles inside banks and ships AI tools that reduce manual time waste in those roles — without replacing people, augmenting their output.
 **Stage:** Post-MVP on two shipped products; entering next hypothesis discovery cycle.
-**Domain:** Russian/CIS bank IT departments — QA, analytics, business analysis, chatbot/IVR teams.
+**Domain:** Russian/CIS bank IT departments — analytics, chatbot/IVR, product management, and design teams.
 
 ### Who I am
 
@@ -77,16 +77,18 @@ Product builder doing AI transformation inside banks. I find roles with measurab
 |---|---|---|---|---|
 | Data analysts (same team as DL-1) | **Have access** | DL-1 already shipped here | SQL pain solved; remaining pain = dashboards, Excel reports, analysis commentary | **#1** |
 | Chatbot scenario writers | **Have access** | None external — DL-2b internal signal | 20% sprint waste on script fixes confirmed; utterance writing ~5-10% sprint additional | **#2** |
-| QA engineers | No access yet | Strong — named pain "script fatigue" | State Street: 67% cut; DBS: 20 days → 1 | **#3** |
+| Product managers | No access yet | Not yet researched | Unknown — untested | **#3** |
+| Designers | No access yet | Not yet researched | Unknown — untested | **#4** |
 
 > **Note:** "Chatbot scriptwriters" and "scenario writers" are the same role — one person writes both JS scripts and NLU training data (intents, utterances, RegExp). DL-3 and DL-4 both target this role.
 
-*Ranking logic: access is the binding constraint at <1 year tenure. QA has the strongest external evidence but no relationship — needs trust-building first. BA and scriptwriters can be interviewed now.*
+> **Note:** Product managers and designers were added as candidate roles on 2026-07-10 but have no access, no interviews, and no market scan yet — both rows are placeholders pending trust-building/warm intro and a targeted market scan.
+
+*Ranking logic: access is the binding constraint at <1 year tenure. Data analysts and scriptwriters have existing relationships and can be interviewed now. Product managers and designers have no access yet — need trust-building before either hypothesis can be tested.*
 
 **Note on Scrum Masters:** Removed — they don't exist as a distinct role in this bank. Team leads double as SMs. The sprint reporting pain (30–120 min/sprint) is real but falls on team leads, not a separate role. Could surface as a secondary pain during team lead interviews.
 
 **Market scan findings (June 2026):**
-- QA "script fatigue" is a documented, named pain across Citi, HSBC, NatWest, Lloyds, Wells Fargo, DNB. AI-generated code is outpacing QA validation — 70–80% of devs use AI coding tools, QA adoption under 50%.
 - Data analysts (DL-1 team): "Business analyst" in this bank = analytics role (SQL, dashboards, Excel) — NOT a requirements-writing BA. Same team as DL-1. SQL pain is already solved. Remaining pain is dashboard creation, Excel report generation, analysis commentary writing. This is an extension hypothesis, not a fresh role.
 - Chatbot scriptwriter augmentation has zero published case studies externally. Either untapped or not yet done publicly.
 - Roles out of scope: Data engineers (context-heavy, same failure mode as DL-2), Security/Antifraud (different department).
@@ -94,8 +96,9 @@ Product builder doing AI transformation inside banks. I find roles with measurab
 
 **→ Next actions:**
 - **Done:** Market signal scan (June 2026)
-- **Next:** Pick data analysts (DL-1 extension) or scriptwriters → run `skill-hypothesis-check.md` → open DL-3
-  Suggested: Data analysts — existing relationship, SQL solved, now find the next bottleneck (dashboards / Excel / commentary)
+- **In progress:** Data analysts (DL-5) — first interview done 09.07.2026, 2–4 more needed
+- **Next:** Continue scriptwriter tracks (DL-3, DL-4) in parallel
+- **Blocked on access:** Product managers, designers — need trust-building/warm intro before a hypothesis cycle can start; no market scan run yet for either
 
 **Out of scope:** DevOps/SRE/infrastructure roles; Security/Antifraud — separate department, no access.
 
