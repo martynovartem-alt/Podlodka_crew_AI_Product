@@ -171,8 +171,6 @@ If #1 (defect diagnosis) pilot is in progress, this can run in parallel as a low
 
 ---
 
----
-
 ## What this run confirmed
 
 1. **Best immediate bet:** #1 (scriptwriter diagnosis) — highest score, confirmed pain, existing access, avoids DL-2 failure mode

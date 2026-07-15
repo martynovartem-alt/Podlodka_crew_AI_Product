@@ -9,7 +9,7 @@ This file provides product and team context for AI-assisted hypothesis discovery
 **Product:** AI Augmentation Platform for bank IT teams
 **What it does:** Identifies high-friction roles inside banks and ships AI tools that reduce manual time waste in those roles — without replacing people, augmenting their output.
 **Stage:** Post-MVP on two shipped products; entering next hypothesis discovery cycle.
-**Domain:** Russian/CIS bank IT departments — analytics, business analysis, chatbot/IVR teams.
+**Domain:** Russian/CIS bank IT departments — analytics, chatbot/IVR, product management, and design teams.
 
 ### Who I am
 
@@ -82,7 +82,9 @@ Product builder doing AI transformation inside banks. I find roles with measurab
 
 > **Note:** "Chatbot scriptwriters" and "scenario writers" are the same role — one person writes both JS scripts and NLU training data (intents, utterances, RegExp). DL-3 and DL-4 both target this role.
 
-*Ranking logic: access is the binding constraint at <1 year tenure. Data analysts and scriptwriters can be interviewed now. Product managers and product designers are newly added candidates (July 2026) — access and external evidence still need to be established before they can be ranked against the existing two.*
+> **Note:** Product managers and designers were added as candidate roles on 2026-07-10 but have no access, no interviews, and no market scan yet — both rows are placeholders pending trust-building/warm intro and a targeted market scan.
+
+*Ranking logic: access is the binding constraint at <1 year tenure. Data analysts and scriptwriters have existing relationships and can be interviewed now. Product managers and product designers are newly added candidates (July 2026) — access and external evidence still need to be established before they can be ranked against the existing two.*
 
 **Note on Scrum Masters:** Removed — they don't exist as a distinct role in this bank. Team leads double as SMs. The sprint reporting pain (30–120 min/sprint) is real but falls on team leads, not a separate role. Could surface as a secondary pain during team lead interviews.
 
@@ -99,6 +101,8 @@ Product builder doing AI transformation inside banks. I find roles with measurab
 - **Done:** Market signal scan (June 2026)
 - **Done:** DL-5 opened for data analysts (July 10, 2026) — dashboard/vitrina generation from requirements
 - **Next:** 3–5 live interviews with DL-1 team (scoped: "draft survives changing requirements", not "generate after finalization") + technical PoC on self-hosted LLM. See DL-5 for full criteria.
+- **Next:** Continue scriptwriter tracks (DL-3, DL-4) in parallel
+- **Blocked on access:** Product managers, designers — need trust-building/warm intro before a hypothesis cycle can start; no market scan run yet for either
 
 **Out of scope:** DevOps/SRE/infrastructure roles; Security/Antifraud — separate department, no access.
 
@@ -128,7 +132,7 @@ One full cycle is ~3 hours. The loop is closed when the DL entry lives in `CLAUD
 | `CLAUDE_template.md` | Product context template — fill this in per product and rename to `CLAUDE.md` |
 | `skill-hypothesis-generating.md` | Generates hypothesis candidates from 3 sources (market, CustDev, product data) → prioritized list ready for hypothesis-check |
 | `Hypotheses_WW_YY.md` | Cross-role hypothesis runs — one file per run (e.g. `Hypotheses_23_26.md`, `Hypotheses_23_26_2.md`). Latest: `Hypotheses_23_26_2.md` |
-| `Hypotheses_AllRoles_23_26.md` | **Canonical** combined & skill-corrected hypotheses for scriptwriters and data analysts (20 total), in Russian. Replaced the per-role files (`Hypotheses_DataAnalysts/ScenarioWriters_23_26.md`), now deleted. |
+| `Hypotheses_AllRoles_23_26.md` | **Canonical** combined & skill-corrected hypotheses for data analysts and scenario writers (20 total), in Russian. Replaced the per-role files (`Hypotheses_DataAnalysts/ScenarioWriters_23_26.md`), now deleted. |
 | `skill-hypothesis-check.md` | Structures a raw idea into a testable hypothesis + ICE (1–10) + go/pivot/stop criteria |
 | `skill-synthetic-custdev.md` | Turns Claude into a specific ICP persona for a practice interview session |
 | `skill-market-scan.md` | Produces a structured market report: TAM, players, trends, gaps — all with sources |
