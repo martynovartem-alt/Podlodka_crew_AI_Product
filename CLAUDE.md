@@ -218,7 +218,6 @@ Entries follow the format `DL-{N}`. Each entry must include a citation (quote or
 
 **What to do next:**
 - Next step: Schedule 3–5 interviews with scriptwriter team (warm contact from DL-2)
-- Deadline: June 14, 2026 (10 days from opening)
 - Responsible: Product owner
 
 **Related:**
@@ -266,7 +265,6 @@ Entries follow the format `DL-{N}`. Each entry must include a citation (quote or
 **What to do next:**
 - Next step: Interview DL-0 team — warm contact, same team as RegExp generator pilot
 - Parallel: Run a quick language quality test with 1 real intent before interviews (2h dev work)
-- Deadline: June 14, 2026
 - Responsible: Product owner
 
 **Related:**
